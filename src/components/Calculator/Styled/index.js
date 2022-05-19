@@ -18,7 +18,7 @@ export const Screen = styled.div`
   display: flex;
   justify-content: space-around;
   flex-direction: column;
-  padding: 15px;
+  padding: 20px 15px 0 0;
   word-wrap: break-word;
   word-break: break-all;
   text-align: right;
@@ -30,6 +30,7 @@ export const Screen = styled.div`
 export const CurrentNumber = styled.div`
   color: white;
   font-size: 3rem;
+  font-weight: 100;
 `;
 
 export const Button = styled.button`
